@@ -1,0 +1,73 @@
+body{
+  background-color: rgb(9, 11, 121);
+  
+}
+.q{
+  font-family:sans-serif;
+  font-size: 45px;
+  color:rgb(6, 0, 61);
+  padding:20px;
+  text-shadow: 3px 3px 5px rgb(80, 123, 180);
+  text-decoration: underline double 5px  rgb(13, 3, 105);
+ 
+}
+h1{
+  color: rgb(33, 49, 141);
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  border: solid 6px rgb(255, 255, 255);
+  width: 1300px;
+  background-color: rgb(115, 207, 250);
+  margin-left:20px;
+}
+.quiz{
+  background-color: rgb(117, 196, 245);
+  border: 11px double rgb(255, 255, 255);
+  width: 800px;
+  padding: 10px;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  font-size: 35px;
+  color:navy;
+  margin-left:220px;
+  margin-right: 173px;
+   box-shadow: 10px 10px 11px rgb(15, 23, 36);
+}
+button{
+  background-color: rgb(7, 1, 82);
+  color:aliceblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  cursor:pointer;
+  border-radius: 80px;
+  border:solid 4px darkblue;
+  box-shadow: 4px 5px 5px black;
+  margin: 5px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+button:hover{
+  background-color: lightskyblue;
+  color: navy;
+}
+.questionsec{
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: 3px 3px 4px rgb(81, 128, 182);
+}
+.scoresec{
+  font-size: 50px;
+  color:rgb(172, 224, 255);
+  background-color: rgb(6, 0, 94);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  padding:20px;
+}
+.answersec{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
